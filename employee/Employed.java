@@ -1,4 +1,4 @@
-package edu.caldas.poo.employed;
+package employee;
 import java.util.Random;
 
 public class Employed {
@@ -32,12 +32,14 @@ public class Employed {
     public void setNameEmployed(String nameEmployed){
         this.nameEmployed=nameEmployed;
     }
+
     public String getDepartment(){
         return department;
     }
     public void setDepartment(String department){
         this.department=department;
     }
+
     public double getSalary(){
         return salary;
     }
