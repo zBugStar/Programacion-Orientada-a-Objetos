@@ -1,7 +1,9 @@
-public class gradeBook {
+package gradeBook;
+import java.util.Scanner;
+public class GradeBook {
     private String courseName;
 
-    public gradeBook(String courseName){
+    public GradeBook(String courseName){
         this.courseName = courseName;
     }
     public String getCourseName(){
@@ -13,5 +15,9 @@ public class gradeBook {
 
     public String displayMessage(){
         return "Bienvenido a la lista de planillas : ";
+    }
+
+    public void determineClassAverage(){
+
     }
 }

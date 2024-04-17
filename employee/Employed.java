@@ -1,4 +1,4 @@
-package edu.caldas.poo.employed;
+package employee;
 import java.util.Random;
 
 public class Employed {
