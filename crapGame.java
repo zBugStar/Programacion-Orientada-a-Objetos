@@ -17,7 +17,7 @@ public class crapGame {
 
              System.out.println("Ganaste en la primera tirada");
              System.out.println("-----------------------------");
-             continuar = false;no me qu
+             continuar = false;
 
           }
          else if (puntaje == 2 || puntaje == 3 || puntaje == 12) {
