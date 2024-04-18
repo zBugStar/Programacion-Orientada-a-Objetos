@@ -2,6 +2,16 @@ import java.util.Random;
 
 public class crapGame {
 
+    public static int tirarDados(Random rnd){
+
+        int dado1 = rnd.nextInt(6)+1;
+        int dado2 = rnd.nextInt(6)+1;
+        System.out.println("Dado 1: "+ dado1);
+        System.out.println("Dado 2: "+ dado2);
+        System.out.println("El total es "+ (dado1+dado2));
+        return dado1+dado2;
+    }
+
     public static void main(String[] args){
 
         Random rnd = new Random();
@@ -34,7 +44,6 @@ public class crapGame {
 
          }
 
-
          while (continuar) {
 
              puntaje = tirarDados(rnd);
@@ -60,13 +69,5 @@ public class crapGame {
 
             }
          }
-    }
-
-
-    public static int tirarDados(Random rnd){
-
-        int dado1 = rnd.nextInt(6)+1;
-        int dado2 = rnd.nextInt(6)+1;
-        return dado1+dado2;
     }
 }
