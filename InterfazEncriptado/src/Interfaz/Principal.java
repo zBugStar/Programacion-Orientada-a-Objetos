@@ -1,7 +1,6 @@
 package Interfaz;
 
 import javax.swing.*;
-import java.awt.event.*;
 
 public class Principal extends JDialog {
     private JPanel panel;
@@ -10,6 +9,9 @@ public class Principal extends JDialog {
     private JTextField textField3;
     private JTextField textField4;
     private JTextField textField5;
+    private JTable Victims;
+    private JButton ADDButton;
+    private JButton DELETEButton;
 
     public Principal() {
         setContentPane(panel);
@@ -20,4 +22,7 @@ public class Principal extends JDialog {
     }
 
 
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
+    }
 }
