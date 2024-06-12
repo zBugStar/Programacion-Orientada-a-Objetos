@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Interfaz Swing/Interfaz Swing.iml" filepath="$PROJECT_DIR$/Interfaz Swing/Interfaz Swing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Programacion-Orientada-a-Objetos.iml" filepath="$PROJECT_DIR$/.idea/Programacion-Orientada-a-Objetos.iml" />
       <module fileurl="file://$PROJECT_DIR$/gradeBook/gradeBook.iml" filepath="$PROJECT_DIR$/gradeBook/gradeBook.iml" />
     </modules>
